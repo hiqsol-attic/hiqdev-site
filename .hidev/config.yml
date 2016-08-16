@@ -1,0 +1,6 @@
+package:
+    type:           project
+    name:           hiqdev
+    title:          HiQDev.com
+    namespace:      hiqdev\hiqdev
+

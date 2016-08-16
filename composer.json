@@ -1,0 +1,72 @@
+{
+    "name": "hiqdev/hiqdev",
+    "type": "project",
+    "description": "HiQDev.com",
+    "keywords": [],
+    "homepage": "https://github.com/hiqdev/hiqdev",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hiqdev",
+        "issues": "https://github.com/hiqdev/hiqdev/issues",
+        "wiki": "https://github.com/hiqdev/hiqdev/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "silverfire@hiqdev.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "tafid@hiqdev.com",
+            "homepage": "http://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@hiqdev.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "hiqdev/hisite-core": "*",
+        "hiqdev/yii2-theme-flat": "*",
+        "hiqdev/yii2-theme-original": "*",
+        "hiqdev/yii2-theme-twentyfifteen": "*"
+    },
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0 || dev-master",
+        "hiqdev/hidev-hiqdev": "<2.0 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "hiqdev\\hiqdev\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "hisite": "src/config/hisite.php"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
