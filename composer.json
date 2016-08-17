@@ -41,6 +41,7 @@
     "require": {
         "hiqdev/hisite-core": "*",
         "hiqdev/yii2-theme-flat": "*",
+        "hiqdev/yii2-theme-dataserv": "*",
         "hiqdev/yii2-theme-original": "*",
         "hiqdev/yii2-theme-twentyfifteen": "*"
     },
