@@ -1,6 +1,6 @@
 package:
     type:           project
-    name:           hiqdev
+    name:           hiqdev-site
     title:          HiQDev site
-    namespace:      hiqdev\hiqdev
+    namespace:      hiqdev\site
 

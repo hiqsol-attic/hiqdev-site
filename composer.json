@@ -1,15 +1,15 @@
 {
-    "name": "hiqdev/hiqdev",
+    "name": "hiqdev/hiqdev-site",
     "type": "project",
-    "description": "HiQDev.com",
+    "description": "HiQDev site",
     "keywords": [],
-    "homepage": "https://github.com/hiqdev/hiqdev",
+    "homepage": "https://github.com/hiqdev/hiqdev-site",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/hiqdev",
-        "issues": "https://github.com/hiqdev/hiqdev/issues",
-        "wiki": "https://github.com/hiqdev/hiqdev/wiki",
+        "source": "https://github.com/hiqdev/hiqdev-site",
+        "issues": "https://github.com/hiqdev/hiqdev-site/issues",
+        "wiki": "https://github.com/hiqdev/hiqdev-site/wiki",
         "forum": "http://forum.hiqdev.com/"
     },
     "authors": [
@@ -58,7 +58,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\hiqdev\\": "src"
+            "hiqdev\\site\\": "src"
         }
     },
     "extra": {

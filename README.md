@@ -1,19 +1,19 @@
-HiQDev.com
-==========
+HiQDev site
+===========
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/hiqdev/v/stable)](https://packagist.org/packages/hiqdev/hiqdev)
-[![Total Downloads](https://poser.pugx.org/hiqdev/hiqdev/downloads)](https://packagist.org/packages/hiqdev/hiqdev)
-[![Build Status](https://img.shields.io/travis/hiqdev/hiqdev.svg)](https://travis-ci.org/hiqdev/hiqdev)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hiqdev.svg)](https://scrutinizer-ci.com/g/hiqdev/hiqdev/)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hiqdev.svg)](https://scrutinizer-ci.com/g/hiqdev/hiqdev/)
-[![Dependency Status](https://www.versioneye.com/php/hiqdev:hiqdev/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hiqdev/dev-master)
+[![Latest Stable Version](https://poser.pugx.org/hiqdev/hiqdev-site/v/stable)](https://packagist.org/packages/hiqdev/hiqdev-site)
+[![Total Downloads](https://poser.pugx.org/hiqdev/hiqdev-site/downloads)](https://packagist.org/packages/hiqdev/hiqdev-site)
+[![Build Status](https://img.shields.io/travis/hiqdev/hiqdev-site.svg)](https://travis-ci.org/hiqdev/hiqdev-site)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hiqdev-site.svg)](https://scrutinizer-ci.com/g/hiqdev/hiqdev-site/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hiqdev-site.svg)](https://scrutinizer-ci.com/g/hiqdev/hiqdev-site/)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:hiqdev-site/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hiqdev-site/dev-master)
 
 ## Installation
 
 The preferred way to install this project is through [composer](http://getcomposer.org/download/).
 
 ```sh
-php composer.phar create-project "hiqdev/hiqdev:*" directory2install
+php composer.phar create-project "hiqdev/hiqdev-site:*" directory2install
 ```
 
 ## License
