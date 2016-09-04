@@ -11,7 +11,6 @@ class SiteController extends \hisite\controllers\SiteController
 
     public function actionPages($page = null)
     {
-        $parser = new GithubMarkdown();
         $path = Yii::getAlias('@hiqdev/site/pages/' . $page . '.md');
         if (!file_exists($path)) {
             die($path);
@@ -27,9 +26,21 @@ class SiteController extends \hisite\controllers\SiteController
 
 #var_dump(compact('data', 'md')); die();
 
-        $data['html'] = $parser->parse($md);
+        $parser = new GithubMarkdown();
+        $html = $parser->parse($md);
 
-        return $this->render('pages', $data);
+        return $this->renderHtml($html, $data);
+    }
+
+    public function renderHtml($html, $data)
+    {
+        if (!empty($data['layout'])) {
+            $this->layout = $data['layout'];
+        }
+        $data['params'] = $data;
+        $data['html'] = $html;
+
+        return $this->render('html', $data);
     }
 
     public function extractData(array $lines)
@@ -51,6 +62,6 @@ class SiteController extends \hisite\controllers\SiteController
             $data = [];
         }
 
-        return [[], $line . join("\n", $lines)];
+        return [$data, $line . join("\n", $lines)];
     }
 }
