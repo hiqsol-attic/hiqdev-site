@@ -41,6 +41,7 @@
     "require": {
         "yiisoft/yii2-debug": "^2.0",
         "codemix/yii2-localeurls": "^1.4",
+        "symfony/yaml": "^3.0",
         "hiqdev/hisite-core": "<2.0 || dev-master",
         "hiqdev/hisite-module-news": "<2.0 || dev-master",
         "hiqdev/yii2-pnotify": "<2.0 || dev-master",

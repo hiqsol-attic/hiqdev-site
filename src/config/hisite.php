@@ -7,6 +7,9 @@ return [
     'components' => [
         'themeManager' => [
             'defaultTheme' => 'original',
+            'viewPaths' => [
+                '@hiqdev/site/views',
+            ],
         ],
     ],
 ];
