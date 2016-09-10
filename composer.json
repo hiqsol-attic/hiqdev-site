@@ -44,6 +44,7 @@
         "symfony/yaml": "^3.0",
         "hiqdev/hisite-core": "<2.0 || dev-master",
         "hiqdev/hisite-module-news": "<2.0 || dev-master",
+        "hiqdev/yii2-module-pages": "<2.0 || dev-master",
         "hiqdev/yii2-pnotify": "<2.0 || dev-master",
         "hiqdev/yii2-language": "<2.0 || dev-master",
         "hiqdev/yii2-theme-agency": "<2.0 || dev-master",
