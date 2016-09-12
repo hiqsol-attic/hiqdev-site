@@ -5,6 +5,10 @@ return [
     'name' => 'HiQDev',
     'controllerNamespace' => 'hiqdev\site\controllers',
     'components' => [
+        'urlManager' => [
+            'class' => \codemix\localeurls\UrlManager::class,
+            'languages' => array_keys($params['languages']),
+        ],
         'themeManager' => [
             'defaultTheme' => 'original',
             'viewPaths' => [
