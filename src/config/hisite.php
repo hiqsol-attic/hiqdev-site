@@ -12,4 +12,12 @@ return [
             ],
         ],
     ],
+    'modules' => [
+        'pages' => [
+            'storage' => [
+                'class' => \creocoder\flysystem\LocalFilesystem::class,
+                'path'  => '@hiqdev/site/pages',
+            ],
+        ],
+    ],
 ];
